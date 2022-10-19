@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Fishing incremental game" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>React on Foundation Template</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <!-- FOUNDATION TOP-BAR -->
+  <div class="top-bar bar-shadow">
+    <!-- .bar-shadow => src/assets/index.css -->
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text topbar-title">React on Foundation</li> 
+        <li><a class="clear button primary" href="#">Item 1</a></li>
+        <li><a class="clear button primary" href="#">Item 2</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a class="clear button primary" href="#">Item 3</a>
+          <ul class="menu vertical">
+            <li><a class="clear button primary" href="#">Item 1</a></li>
+            <li><a class="clear button primary" href="#">Item 1</a></li>
+            <li><a class="clear button primary" href="#">Item 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="root"></div>
+
+</body>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
+</html>

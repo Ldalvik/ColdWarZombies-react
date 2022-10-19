@@ -1,0 +1,140 @@
+@import './settings';
+
+.bar-shadow {
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .3);
+}
+
+/* Top bar title style overrides */
+.topbar-title {
+  color: #383838b6 !important;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.category-card {
+  background-color: $dark-one;
+  border-color: $dark-two;
+  height: 200px;
+  width: 200px;
+  border-radius: 7px;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .25);
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.category-card:hover {
+  border-color: rgb(75, 75, 75);
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.129);
+  background: rgba(110, 110, 110, 0.157);
+  border-radius: 14px;
+}
+
+.main-card {
+  border-color: rgb(36, 36, 36);
+  border-radius: 12px;
+  background-color: $dark-three
+}
+
+.divider {
+  border: solid rgba(62, 62, 62, 0.329) 1px;
+  margin-bottom: 15px;
+}
+
+.divider-small {
+  border: solid rgba(62, 62, 62, 0.329) 1px;
+  margin-bottom: 2px;
+}
+
+.category-btn {
+  border-radius: 5px;
+  transition: 0.2s all;
+  margin-top:5px;
+  background-color: $dark-two !important;
+}
+
+.category-btn:hover {
+  border-radius: 8px;
+  box-shadow: 0 3px 5px -3px rgba(0, 0, 0, .4);
+  background-color: $dark-three !important;
+
+}
+
+.category-btn:active {
+  transform: scale(0.93);
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .4);
+  background-color: $dark-one !important;
+
+}
+
+.skill-card {
+  background-color: $dark-one;
+  height: 60px;
+  border-color: $dark-two;
+  border-radius: 7px;
+  box-shadow: 0 8px 8px -4px rgb(0, 0, 0, 0.2);
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  -webkit-transition: all .2s;
+  transition: 0.2s all;
+}
+
+.skill-card:hover {
+  background-color: $dark-two;
+  border-radius: 12px;
+  box-shadow: 0 10px 10px -4px rgb(0, 0, 0, 0.3);
+}
+
+.skill-card:active {
+  background-color: $dark-three;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px -5px rgb(0, 0, 0, 0.2);
+  transform: scale(0.93);
+}
+
+.active-card {
+  background-color:#083cc074;
+}
+
+.active-card:hover {
+  background-color:rgba(24, 88, 183, 0.434);
+}
+
+.stats-card {
+  background-color: $dark-one;
+  border-color: $dark-two;
+  border-radius: 7px;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .25);
+}
+
+.stats-content {
+  padding: 10px;
+}
+
+.tier-card {
+  border-radius: 9px;
+  border-color: #43434397;
+  background-color: $dark-two;
+  box-shadow: 0 8px 8px -4px rgb(0, 0, 0, 0.2);
+}
+
+.tier-card p {
+  margin: 0px
+}
+
+.blue-upgrade {
+  color: blue
+}
+
+.purple-upgrade {
+  color: purple
+}
+
+.gold-upgrade {
+  color: gold
+}
+
+.skill-header {
+  color: white
+}
